@@ -1,0 +1,51 @@
+{
+  "name": "boilernode-cli",
+  "version": "1.0.1",
+  "description": "Express backend scaffolding CLI — run with: npx boilernode-cli",
+  "main": "bin/index.js",
+  "bin": {
+    "boilernode-cli": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "test:cases": "node scripts/run-all-cases.js"
+  },
+  "keywords": [
+    "backend",
+    "scaffold",
+    "express",
+    "typescript",
+    "javascript",
+    "esm",
+    "mongoose",
+    "drizzle",
+    "prisma",
+    "jwt",
+    "rest-api",
+    "boilerplate",
+    "cli",
+    "generator",
+    "nodejs",
+    "npx"
+  ],
+  "author": "Chetan Pumbhadiya",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "fs-extra": "^11.2.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "8.2.6",
+    "ora": "5.4.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
