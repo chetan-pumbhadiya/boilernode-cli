@@ -29,6 +29,10 @@
     "npx"
   ],
   "author": "Chetan Pumbhadiya",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chetan-pumbhadiya/boilernode-cli.git"
+  },
   "license": "MIT",
   "dependencies": {
     "chalk": "4.1.2",
