@@ -1,6 +1,6 @@
 {
   "name": "boilernode-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Express backend scaffolding CLI — run with: npx boilernode-cli",
   "main": "bin/index.js",
   "bin": {
