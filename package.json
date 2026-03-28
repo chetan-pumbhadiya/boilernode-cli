@@ -26,7 +26,10 @@
     "cli",
     "generator",
     "nodejs",
-    "npx"
+    "npx",
+    "boilernode-cli",
+    "boilernode",
+    "node-boilerplate"
   ],
   "author": "Chetan Pumbhadiya",
   "repository": {
